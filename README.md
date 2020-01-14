@@ -1,11 +1,19 @@
 # Lists, Lists, Lists
 
 # Requirements
-* When a user loads the page, all the lists in the database (5 of them) should be loaded in as options in the select box.
-* When the select box _changes_ and the user chooses a list, the name, priority and the tasks of the list should be rendered on the page. A form to add a new task associated with the chosen list should also be rendered.
+<!-- * When a user loads the page:
+ all the lists in the database (5 of them) should be loaded in as options in the select box. -->
+ 
+<!-- * When the select box _changes_ AND the user chooses a list,
+ the name, priority and the tasks of the list should be rendered on the page. -->
+ 
+  A form to add a new task associated with the chosen list should also be rendered.
+
+
 * When the form to add a new task is submitted, it should also be able to add a task to the list that is currently being displayed. The new task should be persisted in the backend and also get rendered on to the bottom of the list.
-* If the task is "done", then the checkbox next to the task name should be checked. If it isn't done, the checkbox should be blank.
-* When a checkbox changes state, it should persist in the backend. In other words, if a task was completed and the user checks the task off and refreshes the page, the task should still be checked off.
+
+<!-- * If the task is "done", then the checkbox next to the task name should be checked. If it isn't done, the checkbox should be blank. -->
+<!-- * When a checkbox changes state, it should persist in the backend. In other words, if a task was completed and the user checks the task off and refreshes the page, the task should still be checked off. -->
 
 # API
 ```
